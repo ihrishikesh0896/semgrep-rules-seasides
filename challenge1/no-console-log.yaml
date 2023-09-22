@@ -1,0 +1,7 @@
+rules:
+  - id: no-console-log-javascript-by
+    message: "no-console-log"
+    severity: WARNING
+    languages:
+      - javascript
+    pattern: console(...)
